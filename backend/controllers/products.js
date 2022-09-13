@@ -2,6 +2,7 @@ const Product = require('../models/Product')
 const asyncHandler = require('express-async-handler')
 
 
+
 exports.createProduct = async (req, res) =>{
   const title = req.body.title
   const desc = req.body.desc
